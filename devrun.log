@@ -1,0 +1,95 @@
+
+> aurafocus@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 918ms
+✓ Running next.config.ts took 34ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 2.0s (next.js: 1929ms, application-code: 111ms)
+ GET /presentation 200 in 68ms (next.js: 11ms, application-code: 57ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 887ms
+✓ Running next.config.ts took 35ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 1873ms (next.js: 1769ms, application-code: 104ms)
+ GET /presentation 200 in 65ms (next.js: 14ms, application-code: 51ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 886ms
+✓ Running next.config.ts took 26ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 1882ms (next.js: 1783ms, application-code: 99ms)
+ GET /presentation 200 in 55ms (next.js: 11ms, application-code: 44ms)
+✓ Compiled in 99ms
+ GET /presentation 200 in 20ms (next.js: 6ms, application-code: 15ms)
+✓ Compiled in 87ms
+ GET /presentation 200 in 34ms (next.js: 10ms, application-code: 25ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 793ms
+✓ Running next.config.ts took 28ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 2.0s (next.js: 1886ms, application-code: 124ms)
+ GET /presentation 200 in 71ms (next.js: 7ms, application-code: 64ms)
+ GET /presentation 200 in 67ms (next.js: 9ms, application-code: 58ms)
+ GET /presentation 200 in 48ms (next.js: 5ms, application-code: 43ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 848ms
+✓ Running next.config.ts took 28ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 1884ms (next.js: 1782ms, application-code: 103ms)
+ GET /presentation 200 in 51ms (next.js: 15ms, application-code: 36ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 861ms
+✓ Running next.config.ts took 25ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 2.7s (next.js: 2.5s, application-code: 153ms)
+ GET /presentation 200 in 66ms (next.js: 15ms, application-code: 51ms)
+✓ Compiled in 123ms
+ GET /presentation 200 in 18ms (next.js: 7ms, application-code: 11ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 843ms
+✓ Running next.config.ts took 32ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 2.2s (next.js: 2.1s, application-code: 141ms)
+ GET /presentation 200 in 31ms (next.js: 7ms, application-code: 24ms)
+ GET /presentation 200 in 45ms (next.js: 6ms, application-code: 39ms)
+[?25h

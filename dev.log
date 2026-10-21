@@ -1,0 +1,86 @@
+
+> aurafocus@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 2.2s
+✓ Running next.config.ts took 73ms
+
+/*! 🌼 daisyUI 5.7.19 */
+ GET /presentation 200 in 1075ms (next.js: 827ms, application-code: 247ms)
+ GET /presentation 200 in 83ms (next.js: 9ms, application-code: 74ms)
+ GET /presentation 200 in 69ms (next.js: 7ms, application-code: 62ms)
+ GET /presentation 200 in 151ms (next.js: 13ms, application-code: 138ms)
+ GET /presentation 200 in 113ms (next.js: 23ms, application-code: 90ms)
+ GET /presentation 200 in 130ms (next.js: 12ms, application-code: 117ms)
+ GET /presentation 200 in 85ms (next.js: 18ms, application-code: 67ms)
+ GET /presentation 200 in 159ms (next.js: 17ms, application-code: 141ms)
+ GET /presentation 200 in 162ms (next.js: 41ms, application-code: 121ms)
+ GET /presentation 200 in 143ms (next.js: 21ms, application-code: 121ms)
+ GET /presentation 200 in 196ms (next.js: 50ms, application-code: 146ms)
+ GET /presentation 200 in 147ms (next.js: 21ms, application-code: 126ms)
+ GET /presentation 200 in 139ms (next.js: 25ms, application-code: 114ms)
+ GET /presentation 200 in 124ms (next.js: 10ms, application-code: 113ms)
+ GET /presentation 200 in 85ms (next.js: 13ms, application-code: 72ms)
+ GET /presentation 200 in 121ms (next.js: 16ms, application-code: 105ms)
+ GET /presentation 200 in 143ms (next.js: 46ms, application-code: 97ms)
+ GET /presentation 200 in 136ms (next.js: 22ms, application-code: 114ms)
+ GET /presentation 200 in 88ms (next.js: 13ms, application-code: 75ms)
+ GET /presentation 200 in 141ms (next.js: 14ms, application-code: 128ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 7.8min
+✓ Running next.config.ts took 142ms
+
+/*! 🌼 daisyUI 5.7.19 */
+○ Compiling /presentation ...
+ GET /presentation 200 in 4.6s (next.js: 4.3s, application-code: 278ms)
+ GET /presentation 200 in 162ms (next.js: 32ms, application-code: 130ms)
+ GET /presentation 200 in 141ms (next.js: 17ms, application-code: 124ms)
+ GET / 200 in 1377ms (next.js: 1177ms, application-code: 199ms)
+ GET /robots.txt 404 in 669ms (next.js: 599ms, application-code: 69ms)
+ GET /robots.txt 404 in 74ms (next.js: 10ms, application-code: 64ms)
+ GET /presentation 200 in 145ms (next.js: 35ms, application-code: 110ms)
+ GET /presentation 200 in 125ms (next.js: 15ms, application-code: 110ms)
+ GET / 200 in 133ms (next.js: 17ms, application-code: 116ms)
+ GET /profile 200 in 1048ms (next.js: 978ms, application-code: 70ms)
+ GET / 200 in 74ms (next.js: 23ms, application-code: 51ms)
+ GET /goal 200 in 953ms (next.js: 894ms, application-code: 59ms)
+ GET /waiting 200 in 618ms (next.js: 554ms, application-code: 65ms)
+ GET /parent 200 in 1059ms (next.js: 1000ms, application-code: 60ms)
+ GET /parent/done 200 in 1230ms (next.js: 1178ms, application-code: 52ms)
+ GET / 200 in 70ms (next.js: 25ms, application-code: 45ms)
+ GET /focus 200 in 1011ms (next.js: 931ms, application-code: 80ms)
+ GET /presentation 200 in 134ms (next.js: 17ms, application-code: 118ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 1483ms
+✓ Running next.config.ts took 89ms
+
+/*! 🌼 daisyUI 5.7.19 */
+○ Compiling /presentation ...
+ GET /presentation 200 in 4.4s (next.js: 4.1s, application-code: 296ms)
+ GET /presentation 200 in 176ms (next.js: 25ms, application-code: 150ms)
+⨯ The directory at "C:\Users\senth\OneDrive\Documents\Default Project\aurafocus\.next\dev" was deleted.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.156:3000
+✓ Ready in 1470ms
+✓ Running next.config.ts took 75ms
+
+/*! 🌼 daisyUI 5.7.19 */
+○ Compiling /presentation ...
+ GET /presentation 200 in 4.5s (next.js: 4.1s, application-code: 327ms)
+ GET /presentation 200 in 176ms (next.js: 29ms, application-code: 147ms)

@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@plugin "daisyui/theme" {
+  name: "aurafocus";
+  default: true;
+  color-scheme: dark;
+  --color-base-100: #1e2233;
+  --color-base-200: #262b40;
+  --color-base-300: #303650;
+  --color-base-content: #fff6e8;
+  --color-primary: #ffb24c;
+  --color-primary-content: #241a0a;
+  --color-secondary: #5bbfa4;
+  --color-secondary-content: #0f2b23;
+  --color-accent: #e0655b;
+  --color-accent-content: #2b0f0d;
+  --color-neutral: #2a2f47;
+  --color-neutral-content: #fff6e8;
+  --color-info: #7cb8e8;
+  --color-info-content: #0e2538;
+  --color-success: #5bbfa4;
+  --color-success-content: #0f2b23;
+  --color-warning: #ffb24c;
+  --color-warning-content: #241a0a;
+  --color-error: #e0655b;
+  --color-error-content: #2b0f0d;
+  --radius-selector: 1rem;
+  --radius-field: 1rem;
+  --radius-box: 1.5rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "daisyui";
+
+@theme {
+  --font-display: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-midnight: #1e2233;
+  --color-midnight-soft: #262b40;
+  --color-cream: #fff6e8;
+  --color-glow: #ffb24c;
+  --color-glow-deep: #f08a24;
+  --color-credit: #5bbfa4;
+  --color-alert: #e0655b;
+}
+
+body {
+  background: var(--color-base-100);
+  background-image: radial-gradient(
+      ellipse 90% 50% at 50% 0%,
+      rgba(255, 178, 76, 0.06),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 70% 40% at 50% 110%,
+      rgba(255, 178, 76, 0.04),
+      transparent 70%
+    );
+  background-attachment: fixed;
+  color: var(--color-base-content);
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+}
+
+/* Soft glow for the lamp light cone */
+.lamp-glow-idle {
+  filter: drop-shadow(0 0 18px rgba(255, 178, 76, 0.45));
+}
+
+.lamp-glow-active {
+  animation: glow-pulse 2.4s ease-in-out infinite;
+}
+
+.lamp-glow-passed {
+  filter: drop-shadow(0 0 24px rgba(91, 191, 164, 0.8));
+}
+
+.lamp-glow-failed {
+  animation: glow-flash 0.9s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 18px rgba(255, 178, 76, 0.55));
+  }
+  50% {
+    filter: drop-shadow(0 0 34px rgba(255, 178, 76, 0.95));
+  }
+}
+
+@keyframes glow-flash {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px rgba(224, 101, 91, 0.5));
+    opacity: 1;
+  }
+  50% {
+    filter: drop-shadow(0 0 32px rgba(224, 101, 91, 0.95));
+    opacity: 0.75;
+  }
+}
+
+/* Celebration confetti */
+.confetti-piece {
+  position: absolute;
+  top: -16px;
+  width: 10px;
+  height: 14px;
+  border-radius: 3px;
+  animation: confetti-fall linear forwards;
+}
+
+@keyframes confetti-fall {
+  to {
+    transform: translateY(115vh) rotate(720deg);
+    opacity: 0.55;
+  }
+}
