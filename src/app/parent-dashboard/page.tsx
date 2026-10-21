@@ -8,7 +8,7 @@ import { db } from "@/lib/firebase";
 
 export default function ParentDashboard() {
   const router = useRouter();
-  const [student, setStudent] = useState<{ name: string; subject: string; chapter: string; id: string } | null>(null);
+  const [student, setStudent] = useState<{ name: string; goal: string } | null>(null);
   const [confirmation, setConfirmation] = useState<string | null>(null);
   const [selectedDuration, setSelectedDuration] = useState<number | null>(null);
 
@@ -17,7 +17,7 @@ export default function ParentDashboard() {
     onValue(studentRef, (snapshot) => {
       const data = snapshot.val();
       if (data && data.name) {
-        setStudent({ name: data.name, subject: data.subject, chapter: data.chapter, id: "temp" });
+        setStudent({ name: data.name, goal: data.subject + " · " + data.chapter });
       }
     });
   }, []);
@@ -25,9 +25,9 @@ export default function ParentDashboard() {
   const approveSession = () => {
     if (!student || !selectedDuration) return;
 
-    const sessionRef = ref(db, "students/" + student.id + "/session");
+    const sessionRef = ref(db, "students/temp/session");
     set(sessionRef, {
-      goal: `${student.subject} · ${student.chapter}`,
+      goal: student.goal,
       duration: selectedDuration,
       approved: true,
       status: "active",
@@ -62,8 +62,8 @@ export default function ParentDashboard() {
           <section className="mb-6">
             <h2 className="font-display text-lg font-extrabold mb-3">Student</h2>
             <div className="bg-base-200/50 rounded-xl p-4">
-              <p className="font-medium">{student.name}</p>
-              <p className="text-sm text-base-content/60">{student.subject} · {student.chapter}</p>
+              <p className="font-medium">{student?.name}</p>
+              <p className="text-sm text-base-content/60">{student?.goal}</p>
             </div>
           </section>
 
@@ -84,7 +84,6 @@ export default function ParentDashboard() {
                   key={dur}
                   onClick={() => setSelectedDuration(dur)}
                   className="btn btn-outline h-12 w-24 rounded-full text-sm font-bold"
-                  style={{ background: selectedDuration === dur ? "--color-primary" : "transparent", color: selectedDuration === dur ? "white" : "text-base-content" }}
                 >
                   {dur} min
                 </button>
@@ -95,7 +94,7 @@ export default function ParentDashboard() {
           {selectedDuration && (
             <div className="mt-6 p-4 bg-base-200/50 rounded-xl">
               <p className="font-bold text-base-content/70">
-                Approving {selectedDuration} minute session for {student.name}
+                Approving {selectedDuration} minute session for {student?.name}
               </p>
               <button
                 onClick={approveSession}
