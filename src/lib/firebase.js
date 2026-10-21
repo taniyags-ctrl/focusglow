@@ -2,17 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+  apiKey: "AIzaSyCL_IAmhy2uX7iYvcvNMJ4R0i8OaXd07xQ",
+  authDomain: "focusglow-c5f9f.firebaseapp.com",
+  databaseURL: "https://focusglow-c5f9f.firebaseio.com",
+  projectId: "focusglow-c5f9f",
+  storageBucket: "focusglow-c5f9f.appspot.com",
+  messagingSenderId: "652364966999",
+  appId: "1:652364966999:web:d69704fd4daaf204988712"
 };
-
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-// Get a reference to the database
 export const db = getDatabase(app);
