@@ -22,7 +22,6 @@ export default function StudentDashboard() {
     const profileRef = ref(db, "students/" + (profile?.id || "temp") + "/details");
     const sessionRef = ref(db, "students/" + (profile?.id || "temp") + "/session");
 
-    // Listen for profile updates
     onValue(profileRef, (snapshot) => {
       const data = snapshot.val();
       if (data && data.name) {
@@ -34,7 +33,6 @@ export default function StudentDashboard() {
       }
     });
 
-    // Listen for session updates
     onValue(sessionRef, (snapshot) => {
       const data = snapshot.val();
       setSession({
@@ -44,7 +42,6 @@ export default function StudentDashboard() {
     });
   }, [profile]);
 
-  // Submit profile form
   const submitProfile = (e: React.FormEvent) => {
     e.preventDefault();
     const target = e.target as HTMLFormElement;
@@ -66,10 +63,10 @@ export default function StudentDashboard() {
       dashboard_link: `${window.location.origin}/parent?studentId=${id}`,
     };
     emailjs.send(
-      "service_ikolp7d", // Your EmailJS service ID
-      "template_9wie4gm", // Your EmailJS template ID
+      "service_ikolp7d",
+      "template_9wie4gm",
       templateParams,
-      "52_Jbl6Se0bknE7uj" // Your EmailJS public key
+      "52_Jbl6Se0bknE7uj"
     ).then(
       (result: EmailJSResponseStatus) => {
         console.log("Email sent successfully", result.status, result.text);

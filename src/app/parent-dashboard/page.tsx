@@ -84,7 +84,7 @@ export default function ParentDashboard() {
                   key={dur}
                   onClick={() => setSelectedDuration(dur)}
                   className="btn btn-outline h-12 w-24 rounded-full text-sm font-bold"
-                  style={{ background: selectedDuration === dur ? `--color-primary` : "transparent", color: selectedDuration === dur ? "white" : "text-base-content" }}
+                  style={{ background: selectedDuration === dur ? "--color-primary" : "transparent", color: selectedDuration === dur ? "white" : "text-base-content" }}
                 >
                   {dur} min
                 </button>
